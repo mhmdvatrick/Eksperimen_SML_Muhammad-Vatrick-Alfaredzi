@@ -73,9 +73,11 @@ def run_preprocessing(input_path, output_path):
     print("Preprocessing complete!")
 
 if __name__ == '__main__':
-    input_file = '../telco_churn_raw/WA_Fn-UseC_-Telco-Customer-Churn.csv'
-    output_file = 'telco_churn_preprocessed/telco_churn_clean.csv'
+    # Path input dan output disesuaikan dengan struktur folder di screenshot
+    input_file = '../WA_Fn-UseC_-Telco-Customer-Churn_raw/WA_Fn-UseC_-Telco-Customer-Churn.csv'
+    output_file = 'WA_Fn-UseC_-Telco-Customer-Churn_preprocessing/telco_churn_clean.csv'
+    
     if os.path.exists(input_file):
         run_preprocessing(input_file, output_file)
     else:
-        print(f"File not found: {input_file}. Please ensure raw dataset is placed in the 'telco_churn_raw' folder.")
+        print(f"File not found: {input_file}. Please ensure raw dataset is placed in the correct folder.")
