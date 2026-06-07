@@ -73,4 +73,3 @@ Pastikan Anda sudah meng-install Docker dan Docker Compose.
 
 ---
 
-> *Proyek ini diajukan untuk mendapatkan skor kelulusan maksimal (Bintang 5 / 4 Points di semua Kriteria).*
