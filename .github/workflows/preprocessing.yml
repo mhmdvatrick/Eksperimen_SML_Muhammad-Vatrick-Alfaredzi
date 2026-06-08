@@ -31,7 +31,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add preprocessing/telco_churn_preprocessed/telco_churn_clean.csv
-          # Akan commit hanya jika ada perubahan data
+          # Menyesuaikan nama folder output preprocessing Anda
+          git add preprocessing/WA_Fn-UseC_-Telco-Customer-Churn_preprocessing/
           git commit -m "Automated preprocessing: Update clean data" || exit 0
           git push
